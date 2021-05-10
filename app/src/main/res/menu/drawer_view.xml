@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_page"
+            android:title="@string/main_page_title" />
+        <item
+            android:id="@+id/search_page"
+            android:title="@string/search_page_title" />
+
+        <item
+            android:id="@+id/categories_menu"
+            android:title="@string/categories_title">
+            <menu>
+                <item
+                    android:id="@+id/formula_1_page"
+                    android:title="@string/formula_1_page_title"/>
+                <item
+                    android:id="@+id/formula_2_page"
+                    android:title="@string/formula_2_page_title"/>
+                <item
+                    android:id="@+id/formula_3_page"
+                    android:title="@string/formula_3_page_title"/>
+                <item
+                    android:id="@+id/formula_e_page"
+                    android:title="@string/formula_e_page_title"/>
+                <item
+                    android:id="@+id/dtm_page"
+                    android:title="@string/dtm_page_title"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/about_menu"
+            android:title="@string/miscellaneous">
+            <menu>
+                <item
+                    android:id="@+id/history_events_page"
+                    android:title="@string/history_events_page_title"/>
+                <item
+                    android:id="@+id/about_me_page"
+                    android:title="@string/about_me_page_title"/>
+                <item
+                    android:id="@+id/donate_page"
+                    android:title="@string/donate_page_title"/>
+            </menu>
+        </item>
+
+    </group>
+</menu>

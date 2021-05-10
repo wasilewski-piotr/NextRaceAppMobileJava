@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/text</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="TabsView">
+        <item name="android:textColorPrimary">@color/text</item>
+        <item name="android:textColorSecondary">@color/text</item>
+        <item name="colorAccent">@color/f1</item>
+    </style>
+
+    <style name="NavigationView" >
+        <item name="android:listDivider">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/secondary</item>
+    </style>
+
+</resources>
